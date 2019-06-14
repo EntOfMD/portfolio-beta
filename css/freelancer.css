@@ -10811,6 +10811,11 @@ a.text-dark:hover, a.text-dark:focus {
   opacity: 1;
 }
 
+.portfolio-img {
+  height: 20rem;
+  min-width: 22rem;
+}
+
 .floating-label-form-group {
   position: relative;
   border-bottom: 1px solid #e9ecef;
