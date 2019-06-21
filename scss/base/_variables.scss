@@ -4,18 +4,23 @@
 $teal: #1abc9c !default;
 $dark-blue: #2c3e50 !default;
 
+$tungesteen: #003a47 !default;
+$tungesteenLIGHT: #358394 !default;
+
 // Override Bootstrap primary and secondary colors
-$primary: $teal !default;
-$secondary: $dark-blue !default;
+// $primary: $teal !default;
+$primary: $tungesteenLIGHT !default;
+// $secondary: $dark-blue !default;
+$secondary: $tungesteen !default;
 
 // Override Bootstrap font variables
 $font-family-sans-serif: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !default;
+  Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !default;
 // $headings-font-family: 'Montserrat', -apple-system, BlinkMacSystemFont,
 $headings-font-family: 'McLaren', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !default;
+  Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !default;
 $headings-font-weight: 700 !default;
 
 // Override Bootstrap border variables
